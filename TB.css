@@ -1,0 +1,38 @@
+.tB{
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--tweet-background-color);
+    padding-right: 10px;
+
+}
+.tB > form{
+    display: flex;
+    flex-direction: column;
+
+}
+.tb_input{
+    padding: 20px;
+    display: flex;
+}
+.tb_input{
+    flex: 1;
+    font-size: 20px;
+    margin-left: 20px;
+    border: none;
+}
+.tbutton{
+    background-color: var(--tweet-color)!important;
+    border:none !important;
+    color:white !important;
+    font-weight:900 !important; 
+    text-transform: inherit !important;
+    border-radius: 30 px;
+    width: 80px;
+    height: 40px !important;
+    margin-top: 20px !important;
+    margin-right:auto !important ; 
+}
+.tbimage {
+border: none;
+padding: 20px;
+
+}

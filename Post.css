@@ -1,0 +1,40 @@
+.post{
+display: flex;
+align-items: flex-start;
+border-bottom:1px solid var(--tweet-background-color) ;
+padding-bottom: 10px;
+}
+.post_body > img{
+    border-radius: 20px;
+    
+}
+.post_body{
+    flex:1;
+    padding: 10px;
+}
+.post_desc{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.post_footer{
+    display: flex;
+    justify-content: space-between;   
+margin-top: 10px;
+}
+.post_headertext > h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.post_badge{
+    font-size: 15px;
+    color:blue;
+}
+.post_headerspecial{
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+}
+.post_avatar{
+padding: 20px;
+}
